@@ -1,0 +1,129 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .header {
+    width: 100%;
+    background-color: rgb(25, 57, 147);
+  }
+  .wrapper {
+    background-color: #49a4eb;
+    opacity: 0.9;
+    height: 510px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin-top: 25px;
+    padding: 10px 20px;
+  }
+
+  div.logo {
+      color: #F4D03F;
+      font-weight: 600;
+      font-size: 1.7em;
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 10px;
+    letter-spacing: 5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#question-output-container {
+    margin-bottom: 5px;
+}
+
+h4 {
+    color: #0a0909;
+    letter-spacing: 4px;
+    line-height: 1.5rem;
+    font-weight: 600;
+}
+p#answers-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 300px;
+    overflow: hidden;
+}
+
+img {
+    max-width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.input-label {
+    margin-top: 10px;
+}
+
+
+label {
+    cursor: pointer;
+    letter-spacing: 4px;
+}
+
+label:hover {
+    color: #0a0909;
+}
+
+input {
+    position: absolute;
+    top: 3.3px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    
+}
+
+#btnConfirm {
+    padding: 10px 10px;
+    letter-spacing: 4px;
+    background-color: #c1c0c8;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    font-family: inherit;
+    cursor: pointer;
+    
+}
+#btnConfirm:hover {
+    color: #F4D03F;
+    background-color: rgb(25, 57, 147);
+}
+
+
+.celebrationImg {
+    width: 200px;
+}
